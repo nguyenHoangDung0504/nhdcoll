@@ -1,10 +1,8 @@
 import SwipeHandler from './libs/swipe_handler/index.js';
 
 const storageName = window.location.href.split('/').filter(Boolean).pop();
-console.log(storageName);
-
-const galleries = (await import(`../${storageName}/data.js`)).default;
-console.log(galleries);
+const galleries = (await import(`../${storageName}/data.js`)).default.sort();
+console.log('Debug galleries:', galleries);
 
 const grid = document.querySelector('.gallery-grid');
 const galleryEle = {};
@@ -19,6 +17,7 @@ console.log('Added:', galleries.store.length, 'gallery');
 //Build Galleries
 galleries.store.forEach(gallery => {
     const container = document.createElement('div');
+    container.dataset.code = gallery.code;
     container.classList.add('gallery');
     container.innerHTML = `<div class="gallery-image">
             <img loading="lazy" title="${gallery.code}" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
@@ -404,3 +403,10 @@ function scrollToTop(scrollDuration = 300) {
 
     requestAnimationFrame(step);
 }
+
+document.querySelector('#sort').addEventListener('input', function() {
+    galleries.sort(this.value);
+    galleries.store.reverse().forEach(({ code }) => {
+        grid.appendChild(grid.querySelector(`[data-code="${code}"]`));
+    })
+});
