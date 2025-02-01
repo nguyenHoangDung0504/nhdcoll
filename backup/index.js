@@ -1,135 +1,118 @@
 import SwipeHandler from './libs/swipe_handler/index.js';
 
-console.time('> Build app time');
 const storageName = window.location.href.split('/').filter(Boolean).pop();
+const galleries = (await import(`../${storageName}/data.js`)).default.sort();
 const galleryEle = {};
 const models = {};
 const params = new URLSearchParams(location.search);
 const code = params.get('code');
 const chapter = params.get('chapter');
 
-import(`../${storageName}/data.js`).then((module) => {
-    const galleries = module.default;
-    onGalleriesComplete(galleries);
-});
+//Log data
+console.log('Added:', galleries.store.length, 'gallery');
+console.log('Galleries:', galleries);
 
-// Activator functions
-function onGalleriesComplete(galleries) {
-    //Log data
-    console.log('> Added:', galleries.store.length, 'gallery');
-    console.log('> Galleries:', galleries);
+const grid = document.querySelector('.gallery-grid');
 
-    //Build view
-    document.readyState === 'loading'
-        ? document.addEventListener('DOMContentLoaded', () => buildApp(galleries))
-        : buildApp(galleries);
-}
-function buildApp(galleries) {
-    console.log('> Start building app...');
-
-    const grid = document.querySelector('.gallery-grid');
-    const sBox = document.querySelector('#sbox');
-    const clearBtn = document.querySelector('.clear');
-
-    //Build Galleries
-    galleries.store.forEach(gallery => {
-        const container = document.createElement('div');
-        container.dataset.code = gallery.code;
-        container.classList.add('gallery');
-        container.innerHTML = `<div class="gallery-image">
+//Build Galleries
+galleries.store.forEach(gallery => {
+    const container = document.createElement('div');
+    container.dataset.code = gallery.code;
+    container.classList.add('gallery');
+    container.innerHTML = `<div class="gallery-image">
             <img loading="lazy" title="${gallery.code}" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
             <span class="category">${toTitleCase(gallery.category)}</span>
           </div>
           <div title="${toTitleCase(gallery.names.split(' [/] ')[0])}" class="gallery-name">${toTitleCase(gallery.names.split(' [/] ')[0])}</div>
         </div>`.trim();
 
-        container.addEventListener('click', () => {
-            const model = models[gallery.code];
-            if (model) {
-                openModel(model, gallery.code);
-            } else {
-                const newModel = buildModel(gallery);
-                document.body.appendChild(newModel);
-                models[gallery.code] = newModel;
-                openModel(newModel, gallery.code);
-                newModel.querySelectorAll('.sub-label').forEach(label => {
-                    label.addEventListener('click', () => {
-                        closeModel(model);
-                        const sbox = document.querySelector('#sbox');
-                        sbox.value = label.dataset.value;
-                        sbox.dispatchEvent(new Event('input'));
-                        scrollToTop();
-                    })
-                });
-                newModel.querySelector('.read-btn').addEventListener('click', () => {
-                    smoothScrollTo(newModel, newModel.querySelector('.info').offsetHeight);
-                });
-                newModel.querySelector('.help-btn').addEventListener('click', () => {
-                    alert(`You can swipe or drag to change chapter:\n  - from right to left to open next chapter.\n  - from left to right to open previous chapter.\n\nTap blank, press esc key, or double click image to close this.`)
-                });
-            }
-        });
-
-        galleryEle[gallery.code] = container;
-        grid.appendChild(container);
-    });
-    //Add Search function
-    sBox.addEventListener('input', () => {
-        find(sBox.value);
-        if (!sBox.value)
-            document.querySelector('h3.rs-content').textContent = ``;
-    });
-    clearBtn.addEventListener('click', () => {
-        sBox.value = '';
-        sBox.dispatchEvent(new Event('input'));
-    });
-    //Open Model if code exist
-    if (code && chapter) {
-        galleryEle[code].click();
-        let value = null;
-        if (chapter == 'last') {
-            value = galleries.getGalleryByCode(code).images.split('|').length;
-        } else if (chapter == 'frist') {
-            value = 1
+    container.addEventListener('click', () => {
+        const model = models[gallery.code];
+        if (model) {
+            openModel(model, gallery.code);
         } else {
-            value = parseInt(chapter);
+            const newModel = buildModel(gallery);
+            document.body.appendChild(newModel);
+            models[gallery.code] = newModel;
+            openModel(newModel, gallery.code);
+            newModel.querySelectorAll('.sub-label').forEach(label => {
+                label.addEventListener('click', () => {
+                    closeModel(model);
+                    const sbox = document.querySelector('#sbox');
+                    sbox.value = label.dataset.value;
+                    sbox.dispatchEvent(new Event('input'));
+                    scrollToTop();
+                })
+            });
+            newModel.querySelector('.read-btn').addEventListener('click', () => {
+                smoothScrollTo(newModel, newModel.querySelector('.info').offsetHeight);
+            });
+            newModel.querySelector('.help-btn').addEventListener('click', () => {
+                alert(`You can swipe or drag to change chapter:\n  - from right to left to open next chapter.\n  - from left to right to open previous chapter.\n\nTap blank, press esc key, or double click image to close this.`)
+            });
         }
-        const input = models[code].querySelector('input');
-        input.value = value;
-        input.dispatchEvent(new Event('change'));
+    });
 
-        params.delete('chapter');
-        window.history.replaceState(null, null, window.location.pathname + '?' + params.toString());
-    } else if (code) {
-        galleryEle[code].click();
+    galleryEle[gallery.code] = container;
+    grid.appendChild(container);
+});
+//Open Model if code exist
+if (code && chapter) {
+    galleryEle[code].click();
+    let value = null;
+    if (chapter == 'last') {
+        value = galleries.getGalleryByCode(code).images.split('|').length;
+    } else if (chapter == 'frist') {
+        value = 1
+    } else {
+        value = parseInt(chapter);
     }
-    //Close Model key
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-            closeModel();
-        }
-    });
-    //Handling pop state
-    window.addEventListener('popstate', (event) => {
-        if (params.get('code')) {
-            closeModel();
-            window.history.pushState(null, null, window.location.pathname);
-        }
-    });
-    //Fullscreen
-    document.querySelector('.title').addEventListener('click', () => {
-        callFullscreen();
-    });
-    //Sort
-    document.querySelector('#sort').addEventListener('input', function () {
-        galleries.getSorted(this.value).forEach(({ code }) => {
-            grid.appendChild(grid.querySelector(`[data-code="${code}"]`));
-        })
-    });
-    
-    console.log('> Completed build app');
-    console.timeEnd('> Build app time');
+    const input = models[code].querySelector('input');
+    input.value = value;
+    input.dispatchEvent(new Event('change'));
+
+    params.delete('chapter');
+    window.history.replaceState(null, null, window.location.pathname + '?' + params.toString());
+} else if (code) {
+    galleryEle[code].click();
 }
+
+//Close Model key
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+        closeModel();
+    }
+});
+//Add Search function
+const sBox = document.querySelector('#sbox');
+const clearBtn = document.querySelector('.clear');
+sBox.addEventListener('input', () => {
+    find(sBox.value);
+    if (!sBox.value)
+        document.querySelector('h3.rs-content').textContent = ``;
+});
+clearBtn.addEventListener('click', () => {
+    sBox.value = '';
+    sBox.dispatchEvent(new Event('input'));
+});
+//Handling pop state
+window.addEventListener('popstate', (event) => {
+    if (params.get('code')) {
+        closeModel();
+        window.history.pushState(null, null, window.location.pathname);
+    }
+});
+//Fullscreen
+document.querySelector('.title').addEventListener('click', () => {
+    callFullscreen();
+});
+//Sort
+document.querySelector('#sort').addEventListener('input', function() {
+    galleries.sort(this.value);
+    galleries.store.reverse().forEach(({ code }) => {
+        grid.appendChild(grid.querySelector(`[data-code="${code}"]`));
+    })
+});
 
 //Functions
 function find(keyWord) {

@@ -17,6 +17,7 @@ class Gallery {
 
 const galleries = {
     store: [],
+    sortedStore: [],
 
     getGalleryByCode(code) {
         return galleries.store.find(ele => ele.code === code);
@@ -74,12 +75,16 @@ const galleries = {
             return galleries.store.filter(gallery => gallery.keyWord.includes(keyWord.toLowerCase())).map(gallery => gallery.code);
         }
     },
-  
-    sort(by) {
-        const o = by === 'ASC' ? 1 : -1;
-        this.store.sort(({ code: a }, { code: b }) => Number(a) >= Number(b) ? 1 * o : -1 * o);
-        return this;
-    }
+
+    getSorted(by) {
+        if (by === 'NEWEST') return this.store.slice();
+
+        if (this.sortedStore.length === 0) {
+            this.sortedStore = this.store.toSorted((a, b) => Number(a.code) - Number(b.code));
+        }
+    
+        return by === 'DESC' ? this.sortedStore : this.sortedStore.slice().reverse();
+    } // Trả về phiên bản "ngược" để append child lại các node 
 };
 
 export default galleries;
