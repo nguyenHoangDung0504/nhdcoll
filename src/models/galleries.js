@@ -23,8 +23,9 @@ const galleries = {
     },
 
     saveToGalleries(code, category, artists, characters, names, parodies, tags, coverImage, images) {
-        if (galleries.store.map(gallery => gallery.code).includes(code)) {
+        if (galleries.store.map(gallery => gallery.code).includes(code.toString())) {
             console.log('Duplicate code:', code);
+            return;
         }
 
         const filter = (input) => {
@@ -35,12 +36,7 @@ const galleries = {
             return uniqueArray.join(",");
         }
 
-        const gallery = new Gallery(code, category, artists, characters, names, parodies, filter(tags), coverImage, images);
-        if (gallery.coverImage.includes('imh')) {
-            gallery.code = gallery.code.toString() + 'imh';
-        } else if (gallery.coverImage.includes('fox')) {
-            gallery.code = (gallery.code * 10).toString() + 'hf';
-        }
+        const gallery = new Gallery(code.toString(), category, artists, characters, names, parodies, filter(tags), coverImage, images);
 
         galleries.store.unshift(gallery);
     },
@@ -77,6 +73,12 @@ const galleries = {
         } else {
             return galleries.store.filter(gallery => gallery.keyWord.includes(keyWord.toLowerCase())).map(gallery => gallery.code);
         }
+    },
+  
+    sort(by) {
+        const o = by === 'ASC' ? 1 : -1;
+        this.store.sort(({ code: a }, { code: b }) => Number(a) >= Number(b) ? 1 * o : -1 * o);
+        return this;
     }
 };
 
