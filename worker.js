@@ -1,5 +1,5 @@
 const CACHE_NAME = "nhdcoll-cache-v1";
-const CACHE_EXPIRATION = 1 * 60 * 1000;
+const CACHE_EXPIRATION = 0 * 60 * 1000;
 
 const urlsToCache = [
     "/index.html",
