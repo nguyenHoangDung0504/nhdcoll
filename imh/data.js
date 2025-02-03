@@ -388,5 +388,13 @@ g.s(1265406,'doujinshi','takeda hiromitsu','yui kotegawa','[Shinjugai (Takeda Hi
     'ahegao,anal,bbm,big breasts,blowjob,catgirl,defloration,dilf,double penetration,exposed clothing,facesitting,gokkun,group,hairy,hairy armpits,kemonomimi,lactation,lingerie,mind break,mind control,mmf threesome,moral degeneration,pasties,piercing,rape,rimjob,schoolgirl uniform,sex toys,sole female,stockings,teacher,uncensored,unusual pupils,urination,vaginal sticker',
     'm9.imhentai.xxx/027/k6gdf0wsqo/cover.jpg','m9.imhentai.xxx/027/k6gdf0wsqo/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.jpg,<0>35.jpg,<0>36.jpg,<0>37.jpg,<0>38.jpg,<0>39.jpg,<0>40.jpg,<0>41.jpg,<0>42.jpg'
 )
+g.s(1299029,'artist cg','gwegwe','kana arima','[gweda] Kana Arima (Oshi no Ko) [Uncensored] [/] [gweda] 有馬かな (推しの子)','oshi no ko',
+	'impregnation,nakadashi,sole female,sole male,uncensored,variant set,x-ray',
+	'm9.imhentai.xxx/027/s9bz8xvpqt/cover.jpg','m9.imhentai.xxx/027/s9bz8xvpqt/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg'
+)
+g.s(698769,'artist cg','samurai','ichika nakano','[Samurai] Ichika (Gotoubun no Hanayome) [/] [さむらい] 一花 (五等分の花嫁)','gotoubun no hanayome',
+	'big breasts,bikini,sole female,swimsuit,variant set',
+	'm5.imhentai.xxx/017/7h3lz2ciw9/cover.jpg','m5.imhentai.xxx/017/7h3lz2ciw9/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg'
+)
 
 export default g;
