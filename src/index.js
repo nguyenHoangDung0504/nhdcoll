@@ -7,9 +7,11 @@ const models = {};
 const params = new URLSearchParams(location.search);
 const code = params.get('code');
 const chapter = params.get('chapter');
+const useOldData = false;
 
-import(`../${storageName}/data.js`).then((module) => {
+import(`../${storageName}/data${useOldData ? '-old' : ''}.js`).then((module) => {
     const galleries = module.default;
+    window.galleries = galleries;
     onGalleriesComplete(galleries);
 });
 
