@@ -363,6 +363,8 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 #sort {
+  background-color: #333;
+  color: #eee;
   margin-left: 15%;
   margin-bottom: 10px;
   padding: 10px;

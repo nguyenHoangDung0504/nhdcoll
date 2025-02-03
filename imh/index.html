@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>H-com Collection</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="modulepreload" href="/hf/data.js">
     <script src="/src/init-worker.js" async></script>
-    <script type="module" src="/src/index.js" defer></script>
+    <script type="module" src="/src/index.js" async></script>
 </head>
 
 <body>
@@ -28,8 +28,9 @@
     </div>
 
     <select id="sort">
-        <option value="ASC">ASC Order</option>
-        <option value="DESC">DESC Order</option>
+        <option value="NEWEST" selected>New upload</option>
+        <option value="ASC">ASC code</option>
+        <option value="DESC">DESC code</option>
     </select>
   
     <div style="min-height: 70vh">
