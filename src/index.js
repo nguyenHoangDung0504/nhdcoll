@@ -1,7 +1,7 @@
 import SwipeHandler from './libs/swipe_handler/index.js';
 
 console.time('> Build app time');
-const storageName = window.location.href.split('/').filter(Boolean).pop();
+const storageName = window.location.href.split('?')[0].split('/').filter(Boolean).pop();
 const galleryEle = {};
 const models = {};
 const params = new URLSearchParams(location.search);
@@ -29,6 +29,7 @@ function buildApp(galleries) {
 
     const grid = document.querySelector('.gallery-grid');
     const sBox = document.querySelector('#sbox');
+    const sLabel = document.querySelector('h3.rs-content');
     const clearBtn = document.querySelector('.clear');
 
     //Build Galleries
@@ -73,11 +74,17 @@ function buildApp(galleries) {
         galleryEle[gallery.code] = container;
         grid.appendChild(container);
     });
+    // Biến lưu timeout
+    let timeoutId; 
     //Add Search function
     sBox.addEventListener('input', () => {
-        find(sBox.value);
-        if (!sBox.value)
-            document.querySelector('h3.rs-content').textContent = ``;
+        clearTimeout(timeoutId); // Xóa timeout trước đó nếu có
+        if (sBox.value.trim().length === 0) {
+            sLabel.textContent = ``;
+        }
+        timeoutId = setTimeout(() => {
+            find(galleries, sBox.value);
+        }, 200); // 0.3s (300ms)
     });
     clearBtn.addEventListener('click', () => {
         sBox.value = '';
@@ -132,12 +139,12 @@ function buildApp(galleries) {
 }
 
 //Functions
-function find(keyWord) {
+function find(galleries, keyWord) {
     const rs = galleries.find(keyWord);
     for (let id in galleryEle) {
         galleryEle[id].style.display = rs.includes(id) ? 'flex' : 'none';
     }
-    document.querySelector('h3.rs-content').textContent = `${rs.length} Result for keyword "${keyWord}"`;
+    if (keyWord.length !== 0) document.querySelector('h3.rs-content').textContent = `${rs.length} Result for keyword "${keyWord}"`;
 }
 function toTitleCase(str) {
     return str.replace(/\b\w+\b/g, (word) => {
