@@ -75,7 +75,7 @@ function buildApp(galleries) {
         grid.appendChild(container);
     });
     // Biến lưu timeout
-    let timeoutId; 
+    let timeoutId;
     //Add Search function
     sBox.addEventListener('input', () => {
         clearTimeout(timeoutId); // Xóa timeout trước đó nếu có
@@ -91,24 +91,24 @@ function buildApp(galleries) {
         sBox.dispatchEvent(new Event('input'));
     });
     //Open Model if code exist
-    if (code && chapter) {
+    if (code) {
         galleryEle[code].click();
-        let value = null;
-        if (chapter == 'last') {
-            value = galleries.getGalleryByCode(code).images.split('|').length;
-        } else if (chapter == 'frist') {
-            value = 1
-        } else {
-            value = parseInt(chapter);
-        }
-        const input = models[code].querySelector('input');
-        input.value = value;
-        input.dispatchEvent(new Event('change'));
+        if (chapter) {
+            let value = null;
+            if (chapter == 'last') {
+                value = galleries.getGalleryByCode(code).images.split('|').length;
+            } else if (chapter == 'frist') {
+                value = 1
+            } else {
+                value = parseInt(chapter);
+            }
+            const input = models[code].querySelector('input');
+            input.value = value;
+            input.dispatchEvent(new Event('change'));
 
-        params.delete('chapter');
-        window.history.replaceState(null, null, window.location.pathname + '?' + params.toString());
-    } else if (code) {
-        galleryEle[code].click();
+            params.delete('chapter');
+            window.history.replaceState(null, null, window.location.pathname + '?' + params.toString());
+        }
     }
     //Close Model key
     document.addEventListener('keydown', function (event) {
@@ -133,7 +133,7 @@ function buildApp(galleries) {
             grid.appendChild(grid.querySelector(`[data-code="${code}"]`));
         })
     });
-    
+
     console.log('> Completed build app');
     console.timeEnd('> Build app time');
 }
