@@ -43,7 +43,7 @@ function buildApp(galleries) {
             <img loading="lazy" title="${gallery.code}" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
             <span class="category">${toTitleCase(gallery.category)}</span>
           </div>
-          <div title="${toTitleCase(gallery.names.split(' [/] ')[0])}" class="gallery-name">${toTitleCase(gallery.names.split(' [/] ')[0])}</div>
+          <div title="${toTitleCase(gallery.names.split('[/]')[0])}" class="gallery-name">${toTitleCase(gallery.names.split('[/]')[0])}</div>
         </div>`.trim();
 
         container.addEventListener('click', () => {
@@ -284,8 +284,8 @@ function buildGalleryInfo(gallery) {
     const readBtn = document.createElement('div');
 
     let name = '';
-    let splittedName = gallery.names.split(' [/] ');
-    name = (gallery.names.includes(' [/] ') && splittedName[1].length > 0) ? splittedName[0] + "<br><br><span style=\"color: deeppink\">Other name:</span> " + splittedName[1] : splittedName[0];
+    let splittedName = gallery.names.split('[/]');
+    name = (gallery.names.includes('[/]') && splittedName[1].length > 0) ? splittedName[0] + "<br><br><span style=\"color: deeppink\">Other name:</span> " + splittedName[1] : splittedName[0];
 
     infoDiv.classList.add('info');
     leftDiv.classList.add('left');
