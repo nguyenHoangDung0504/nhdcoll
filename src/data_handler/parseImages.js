@@ -48,6 +48,7 @@ function toString(gallery) {
     const { code, category, artists, characters, names, parodies, tags, coverImage, images } = gallery;
 return `g.s(${code},'${category}','${artists}','${characters}','${names.replaceAll('\'', "\\'").replaceAll(' [/] ', '[/]')}','${parodies.replaceAll('\'', "\\'")}',
     '${tags}',
-    '${coverImage}','${images}'
-)
+    '${coverImage}','${images}')
 `}
+
+// copy(mapped.join())
