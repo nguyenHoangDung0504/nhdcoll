@@ -62,7 +62,7 @@ const buildInfo = () => {
 
   let code = window.location.href.split('/')[4];
   const rd = document.querySelector('.right_details')
-  let names = escapeInvalidCharacters(`${rd.querySelector('h1').textContent.trim()} [/] ${rd.querySelector('.subtitle').textContent.trim()}`);
+  let names = escapeInvalidCharacters(`${rd.querySelector('h1').textContent.trim()}[/]${rd.querySelector('.subtitle').textContent.trim()}`);
   let coverImage = document.querySelector('.left_cover').querySelector('img').dataset.src.replace('https://', '');
 
   let infoData = {
