@@ -100,7 +100,7 @@ const buildInfo = () => {
     }, []).join(',');
   }
 
-  return `g.s(${code},'${infoData.category}','${infoData.artists}','${infoData.characters}','${names}','${infoData.parodies}',\n\t'${infoData.tags}',\n\t'${coverImage}','[imgs]'\n)\n`;
+  return `g.s(${code},'${infoData.category}','${infoData.artists}','${infoData.characters}','${names}','${infoData.parodies}',\n\t'${infoData.tags}',\n\t'${coverImage}','[imgs]')\n`;
 };
 
 const getStringSrc = (arrOfSrc) => {
