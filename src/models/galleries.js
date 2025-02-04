@@ -23,6 +23,36 @@ const galleries = {
         return galleries.store.find(ele => ele.code === code);
     },
 
+    s(code, category, artists, characters, names, parodies, tags, coverImage, images) {
+        if (galleries.store.map(gallery => gallery.code).includes(code.toString())) {
+            console.log('Duplicate code:', code);
+            return;
+        }
+
+        const filter = (input) => {
+            let array = input.split(",");
+            let uniqueArray = array.filter(function (item, index) {
+                return array.indexOf(item) === index;
+            });
+            return uniqueArray.join(",");
+        }
+
+        const gallery = new Gallery(code.toString(), category, artists, characters, names, parodies, filter(tags), coverImage, restoreImageUrls(images));
+
+        galleries.store.unshift(gallery);
+
+        function restoreImageUrls(optimizedString) {
+            const [prefixPart, urlsPart] = optimizedString.split("}");
+            const prefixes = prefixPart.split(",");
+            const urlPattern = /<(\d+)>([^,|]+)/g;
+
+            // Thay thế `<index>` bằng `prefixes[index]`
+            const restoredUrls = urlsPart.replace(urlPattern, (_, idx, fileName) => prefixes[idx] + fileName);
+
+            return restoredUrls;
+        }
+    },
+
     saveToGalleries(code, category, artists, characters, names, parodies, tags, coverImage, images) {
         if (galleries.store.map(gallery => gallery.code).includes(code.toString())) {
             console.log('Duplicate code:', code);
@@ -82,9 +112,10 @@ const galleries = {
         if (this.sortedStore.length === 0) {
             this.sortedStore = this.store.toSorted((a, b) => Number(a.code) - Number(b.code));
         }
-    
+
+        // Trả về phiên bản "ngược" để append child lại các node
         return by === 'DESC' ? this.sortedStore : this.sortedStore.slice().reverse();
-    } // Trả về phiên bản "ngược" để append child lại các node 
+    }
 };
 
 export default galleries;

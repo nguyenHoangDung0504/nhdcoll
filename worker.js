@@ -1,5 +1,5 @@
 const CACHE_NAME = "nhdcoll-cache-v1";
-const CACHE_EXPIRATION = 0 * 60 * 1000;
+const CACHE_EXPIRATION = 10 * 60 * 1000;
 
 const urlsToCache = [
     "/index.html",
@@ -53,6 +53,7 @@ self.addEventListener("install", (event) => {
                             if (response.ok) {
                                 await cache.put(new Request(prefix), response.clone());
                                 await saveCacheMetadata(cache, new Request(prefix));
+                                console.log('> [Worker] Cached:', response.url);
                             }
                         })
                         .catch((err) => console.error(`Failed to cache ${prefix}:`, err))
@@ -76,7 +77,7 @@ self.addEventListener("fetch", (event) => {
             if (cachedResponse) {
                 const isExpired = await removeIfExpired(cache, event.request);
                 if (!isExpired) {
-                    console.log(`Cache hit: ${event.request.url}`);
+                    console.log(`> [Worker] Cache hit: ${event.request.url}`);
                     return cachedResponse;
                 }
             }

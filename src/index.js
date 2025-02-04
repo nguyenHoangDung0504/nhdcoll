@@ -7,9 +7,11 @@ const models = {};
 const params = new URLSearchParams(location.search);
 const code = params.get('code');
 const chapter = params.get('chapter');
+const useOldData = false;
 
-import(`../${storageName}/data.js`).then((module) => {
+import(`../${storageName}/data${useOldData ? '-old' : ''}.js`).then((module) => {
     const galleries = module.default;
+    window.galleries = galleries;
     onGalleriesComplete(galleries);
 });
 
@@ -41,7 +43,7 @@ function buildApp(galleries) {
             <img loading="lazy" title="${gallery.code}" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
             <span class="category">${toTitleCase(gallery.category)}</span>
           </div>
-          <div title="${toTitleCase(gallery.names.split(' [/] ')[0])}" class="gallery-name">${toTitleCase(gallery.names.split(' [/] ')[0])}</div>
+          <div title="${toTitleCase(gallery.names.split('[/]')[0])}" class="gallery-name">${toTitleCase(gallery.names.split('[/]')[0])}</div>
         </div>`.trim();
 
         container.addEventListener('click', () => {
@@ -75,7 +77,7 @@ function buildApp(galleries) {
         grid.appendChild(container);
     });
     // Biến lưu timeout
-    let timeoutId; 
+    let timeoutId;
     //Add Search function
     sBox.addEventListener('input', () => {
         clearTimeout(timeoutId); // Xóa timeout trước đó nếu có
@@ -91,24 +93,24 @@ function buildApp(galleries) {
         sBox.dispatchEvent(new Event('input'));
     });
     //Open Model if code exist
-    if (code && chapter) {
+    if (code) {
         galleryEle[code].click();
-        let value = null;
-        if (chapter == 'last') {
-            value = galleries.getGalleryByCode(code).images.split('|').length;
-        } else if (chapter == 'frist') {
-            value = 1
-        } else {
-            value = parseInt(chapter);
-        }
-        const input = models[code].querySelector('input');
-        input.value = value;
-        input.dispatchEvent(new Event('change'));
+        if (chapter) {
+            let value = null;
+            if (chapter == 'last') {
+                value = galleries.getGalleryByCode(code).images.split('|').length;
+            } else if (chapter == 'frist') {
+                value = 1
+            } else {
+                value = parseInt(chapter);
+            }
+            const input = models[code].querySelector('input');
+            input.value = value;
+            input.dispatchEvent(new Event('change'));
 
-        params.delete('chapter');
-        window.history.replaceState(null, null, window.location.pathname + '?' + params.toString());
-    } else if (code) {
-        galleryEle[code].click();
+            params.delete('chapter');
+            window.history.replaceState(null, null, window.location.pathname + '?' + params.toString());
+        }
     }
     //Close Model key
     document.addEventListener('keydown', function (event) {
@@ -133,7 +135,7 @@ function buildApp(galleries) {
             grid.appendChild(grid.querySelector(`[data-code="${code}"]`));
         })
     });
-    
+
     console.log('> Completed build app');
     console.timeEnd('> Build app time');
 }
@@ -282,8 +284,8 @@ function buildGalleryInfo(gallery) {
     const readBtn = document.createElement('div');
 
     let name = '';
-    let splittedName = gallery.names.split(' [/] ');
-    name = (gallery.names.includes(' [/] ') && splittedName[1].length > 0) ? splittedName[0] + "<br><br><span style=\"color: deeppink\">Other name:</span> " + splittedName[1] : splittedName[0];
+    let splittedName = gallery.names.split('[/]');
+    name = (gallery.names.includes('[/]') && splittedName[1].length > 0) ? splittedName[0] + "<br><br><span style=\"color: deeppink\">Other name:</span> " + splittedName[1] : splittedName[0];
 
     infoDiv.classList.add('info');
     leftDiv.classList.add('left');
