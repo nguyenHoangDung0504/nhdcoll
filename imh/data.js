@@ -297,5 +297,38 @@ g.s(1299029,'artist cg','gwegwe','kana arima','[gweda] Kana Arima (Oshi no Ko) [
 g.s(698769,'artist cg','samurai','ichika nakano','[Samurai] Ichika (Gotoubun no Hanayome)[/][さむらい] 一花 (五等分の花嫁)','gotoubun no hanayome',
     'big breasts,bikini,sole female,swimsuit,variant set',
     'm5.imhentai.xxx/017/7h3lz2ciw9/cover.jpg','m5.imhentai.xxx/017/7h3lz2ciw9/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg')
+g.s(1317979,'artist cg','jackdempa','','[弱電波]電車で夏服 ボディペイント露出[/]','',
+	'body painting,exhibitionism,piercing,schoolgirl uniform,transparent clothing',
+	'm9.imhentai.xxx/027/0cjtq7vin2/cover.jpg','m9.imhentai.xxx/027/0cjtq7vin2/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg')
+g.s(1306158,'artist cg','jackdempa','','[Jackdempa] Ayashige na Party Dress Kise Pan Puchi 8[/][弱電波] 怪しげなパーティドレス きせぱんﾌﾟﾁ8','',
+	'exposed clothing,lingerie,nipple piercing,nudity only,piercing,sole female,variant set',
+	'm9.imhentai.xxx/027/dj03ax6ulf/cover.jpg','m9.imhentai.xxx/027/dj03ax6ulf/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.jpg,<0>35.jpg,<0>36.jpg,<0>37.jpg,<0>38.jpg,<0>39.jpg,<0>40.jpg,<0>41.jpg,<0>42.jpg,<0>43.jpg,<0>44.jpg,<0>45.jpg,<0>46.jpg,<0>47.jpg,<0>48.jpg,<0>49.jpg,<0>50.jpg,<0>51.jpg,<0>52.jpg,<0>53.jpg,<0>54.jpg,<0>55.jpg,<0>56.jpg,<0>57.jpg,<0>58.jpg,<0>59.jpg,<0>60.jpg,<0>61.jpg,<0>62.jpg,<0>63.jpg,<0>64.jpg,<0>65.jpg,<0>66.jpg,<0>67.jpg')
+g.s(1348849,'artist cg','jackdempa','','[Jackdempa] Shiho San Scat Add![/][弱電波] 詩帆さんスカトロ追加！','',
+	'no penetration,scat,sole female,unusual pupils,variant set',
+	'm9.imhentai.xxx/028/gktiyf0m1w/cover.jpg','m9.imhentai.xxx/028/gktiyf0m1w/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp')
+g.s(1346988,'artist cg','jackdempa','','[Jackdempa] Kisekae Pantsu-chan Puchi 7[/][弱電波] きせかえぱんつちゃんプチ 7','',
+	'big breasts,exposed clothing,fishnets,hairy,piercing,ponytail,sole female,variant set',
+	'm9.imhentai.xxx/028/ew8vmd5201/cover.jpg','m9.imhentai.xxx/028/ew8vmd5201/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp,<0>27.webp,<0>28.webp,<0>29.webp,<0>30.webp,<0>31.webp,<0>32.webp,<0>33.webp,<0>34.webp,<0>35.webp,<0>36.webp,<0>37.webp,<0>38.webp,<0>39.webp,<0>40.webp,<0>41.webp,<0>42.webp,<0>43.webp,<0>44.webp,<0>45.webp,<0>46.webp,<0>47.webp,<0>48.webp,<0>49.webp,<0>50.webp')
+g.s(1343302,'artist cg','jackdempa','','[弱電波] お部屋連れ込みドスケベドレス詩帆さん[/]','',
+	'big breasts,piercing,sole female,variant set,very long hair',
+	'm9.imhentai.xxx/028/97kfhxugm6/cover.jpg','m9.imhentai.xxx/028/97kfhxugm6/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp')
+g.s(1183353,'artist cg','jackdempa','','[Jackdempa] Kisekae Pants-chan Petit 1-3[/]','',
+	'no penetration,nudity only,scat,urination,variant set',
+	'm8.imhentai.xxx/025/jgfdpxqe92/cover.jpg','m8.imhentai.xxx/025/jgfdpxqe92/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg|<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.jpg,<0>35.jpg,<0>36.jpg,<0>37.jpg,<0>38.jpg,<0>39.jpg,<0>40.jpg,<0>41.jpg,<0>42.jpg,<0>43.jpg,<0>44.jpg,<0>45.jpg|<0>46.jpg,<0>47.jpg,<0>48.jpg,<0>49.jpg,<0>50.jpg,<0>51.jpg,<0>52.jpg,<0>53.jpg,<0>54.jpg,<0>55.jpg,<0>56.jpg,<0>57.jpg,<0>58.jpg,<0>59.jpg,<0>60.jpg,<0>61.jpg,<0>62.jpg,<0>63.jpg,<0>64.jpg,<0>65.jpg,<0>66.jpg,<0>67.jpg,<0>68.jpg')
+g.s(1105184,'artist cg','jackdempa','','[Jack Dempa]Kisekae Pantsu-chan 16 scatology[/][弱電波]きせかえぱんつちゃん 16 スカトロ','',
+	'garter belt,maid,scat,stockings,variant set',
+	'm7.imhentai.xxx/024/vj02usef7i/cover.jpg','m7.imhentai.xxx/024/vj02usef7i/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg')
+g.s(959824,'artist cg','jackdempa','','Jack Dempa -【過去作】濡れちゃいな (Fantia)[/]','',
+	'bikini,chinese dress,hair buns,hairy,nudity only,sole female,stockings,swimsuit,twintails,unusual pupils,variant set',
+	'm6.imhentai.xxx/022/pasbqx41hn/cover.jpg','m6.imhentai.xxx/022/pasbqx41hn/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg')
+g.s(1390839,'artist cg','gwegwe','castorice','[gweda] Castorice (Honkai: Star Rail) [Uncensored][/][gweda] キャストリス (崩壊:スターレイル)','honkai star rail',
+	'impregnation,nakadashi,sole female,uncensored,variant set',
+	'm9.imhentai.xxx/028/fra53y60x2/cover.jpg','m9.imhentai.xxx/028/fra53y60x2/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp')
+g.s(1320849,'artist cg','gwegwe','alice','[gweda] Alice (GODDESS OF VICTORY: Nikke) [Uncensored][/][gweda] アリス (勝利の女神:NIKKE)','goddess of victory nikke',
+	'big breasts,bunny girl,collar,dark skin,lactation,leotard,nakadashi,pantyhose,sole female,sole male,twintails,uncensored,variant set,very long hair,x-ray',
+	'm9.imhentai.xxx/027/xtzodaimf4/cover.jpg','m9.imhentai.xxx/027/xtzodaimf4/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg')
+g.s(1212354,'artist cg','gwegwe','saori joumae','[gweda] Joumae Saori (Blue Archive) [Uncensored][/][gweda] 錠前サオリ (ブルーアーカイブ)','blue archive',
+	'big breasts,collar,first person perspective,impregnation,nakadashi,sole female,sole male,variant set,very long hair,x-ray',
+	'm8.imhentai.xxx/025/9um5lyahgs/cover.jpg','m8.imhentai.xxx/025/9um5lyahgs/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg')
 
 export default g;
