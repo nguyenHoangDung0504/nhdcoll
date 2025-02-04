@@ -20,6 +20,7 @@ const errorHandling = (event) => {
 
   // Nếu đã thử quá số lần tối đa (10 lần), báo lỗi và gỡ sự kiện
   const maxAttempts = formats.length * 3; // 3 lần thử cho mỗi định dạng
+  
   if (img.dataset.attempts > maxAttempts) {
     img.removeEventListener('error', errorHandling);
     img.alt += ' - Error';
