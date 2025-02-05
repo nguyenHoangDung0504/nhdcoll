@@ -19,9 +19,6 @@ import(`../${storageName}/data.js`).then((module) => {
     onGalleriesComplete(galleries);
 });
 
-// Variables
-const GALLERIES_PER_PAGE = 20;
-
 // Activator functions
 function onGalleriesComplete(galleries) {
     //Log data
@@ -40,17 +37,12 @@ function buildApp(galleries) {
     const sBox = document.querySelector('#sbox');
     const sLabel = document.querySelector('h3.rs-content');
     const clearBtn = document.querySelector('.clear');
-    const sortBox = document.querySelector('#sort');
-    const pageDisplay = document.querySelector("#page-display input");
-    const totalPageSpan = document.querySelector("#page-display span");
-    const prevPageBtn = document.querySelector("#page-container .btn:first-child");
-    const nextPageBtn = document.querySelector("#page-container .btn:last-child");
 
-    // Build Galleries
+    //Build Galleries
     galleries.store.forEach(gallery => {
         const container = document.createElement('div');
         container.dataset.code = gallery.code;
-        container.classList.add('gallery', 'duma');
+        container.classList.add('gallery');
         container.innerHTML = `<div class="gallery-image">
             <img loading="lazy" title="${gallery.code}" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
             <span class="category">${toTitleCase(gallery.category)}</span>
@@ -73,7 +65,7 @@ function buildApp(galleries) {
                         const sbox = document.querySelector('#sbox');
                         sbox.value = label.dataset.value;
                         sbox.dispatchEvent(new Event('input'));
-                        smoothScrollToTop();
+                        scrollToTop();
                     })
                 });
                 newModel.querySelector('.read-btn').addEventListener('click', () => {
@@ -90,17 +82,21 @@ function buildApp(galleries) {
     });
     // Biến lưu timeout
     let timeoutId;
-    // Add Search function (Debounce)
+    //Add Search function
     sBox.addEventListener('input', () => {
-        clearTimeout(timeoutId);
-        if (sBox.value.trim().length === 0) sLabel.textContent = ``;
-        timeoutId = setTimeout(display, 200);
+        clearTimeout(timeoutId); // Xóa timeout trước đó nếu có
+        if (sBox.value.trim().length === 0) {
+            sLabel.textContent = ``;
+        }
+        timeoutId = setTimeout(() => {
+            find(galleries, sBox.value);
+        }, 200); // 0.3s (300ms)
     });
     clearBtn.addEventListener('click', () => {
         sBox.value = '';
         sBox.dispatchEvent(new Event('input'));
     });
-    // Open Model if code exist
+    //Open Model if code exist
     if (code) {
         galleryEle[code].click();
         if (chapter) {
@@ -120,88 +116,41 @@ function buildApp(galleries) {
             window.history.replaceState(null, null, window.location.pathname + '?' + params.toString());
         }
     }
-    // Close Model key
+    //Close Model key
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
             closeModel();
         }
     });
-    // Handling pop state
+    //Handling pop state
     window.addEventListener('popstate', (event) => {
         if (params.get('code')) {
             closeModel();
             window.history.pushState(null, null, window.location.pathname);
         }
     });
-    // Fullscreen
+    //Fullscreen
     document.querySelector('.title').addEventListener('click', () => {
         callFullscreen();
     });
-    // Sort
-    sortBox.addEventListener('input', display);
-    // Page
-    pageDisplay.addEventListener('input', (e) => display(undefined, undefined, e.target.value));
-    prevPageBtn.addEventListener('click', () => {
-        pageDisplay.value = Math.max(pageDisplay.min, Number(pageDisplay.value) - 1);
-        pageDisplay.dispatchEvent(new Event('input'));
-        smoothScrollToTop();
+    //Sort
+    document.querySelector('#sort').addEventListener('input', function () {
+        galleries.getSorted(this.value).forEach(({ code }) => {
+            grid.appendChild(grid.querySelector(`[data-code="${code}"]`));
+        })
     });
-    nextPageBtn.addEventListener('click', () => {
-        pageDisplay.value = Math.min(pageDisplay.max, Number(pageDisplay.value) + 1);
-        pageDisplay.dispatchEvent(new Event('input'));
-        smoothScrollToTop();
-    });
-    new SwipeHandler(grid, 2.5, 
-        () => prevPageBtn.dispatchEvent(new Event('click')), 
-        () => nextPageBtn.dispatchEvent(new Event('click'))
-    );
-
-    display();
 
     console.log('> Completed build app');
     console.timeEnd('> Build app time');
-
-    function display(keyword, orderby, page) {
-        if (keyword instanceof Event) keyword = undefined;
-        keyword ??= sBox.value;
-        orderby ??= sortBox.value;
-        page ??= 1;
-
-        let codeMatchKeyword = find(galleries, keyword);
-        let useGalleries = (orderby !== 'NEWEST')
-            ? galleries.getSorted(orderby)
-            : galleries.store;
-        let codes = keyword 
-            ? useGalleries.map(g => codeMatchKeyword.includes(g.code) ? g.code : undefined).filter(Boolean)
-            : useGalleries.map(g => g.code);
-        
-        const totalPages = Math.ceil(codes.length / GALLERIES_PER_PAGE);
-        const start = (page - 1) * GALLERIES_PER_PAGE;
-        const end = Math.min(start + GALLERIES_PER_PAGE - 1, codes.length);
-        const displayCodes = codes.slice(start, end + 1);
-        
-        pageDisplay.setAttribute('max', totalPages);
-        pageDisplay.value = page;
-        if (pageDisplay.value > totalPages) pageDisplay.value = 1;
-        totalPageSpan.textContent = totalPages;
-        
-        for (let id in galleryEle)
-            galleryEle[id].style.display = displayCodes.includes(id) ? 'flex' : 'none';
-
-        displayCodes.forEach(c => grid.appendChild(galleryEle[c]));
-    }
 }
 
-// Functions
+//Functions
 function find(galleries, keyWord) {
     const rs = galleries.find(keyWord);
-
-    if (keyWord.trim().length !== 0) {
-        document.querySelector('h3.rs-content').textContent = `${rs.length} Result for keyword "${keyWord}"`;        
+    for (let id in galleryEle) {
+        galleryEle[id].style.display = rs.includes(id) ? 'flex' : 'none';
     }
-    document.querySelector("#page-container").style = rs.length > GALLERIES_PER_PAGE ? undefined : 'display: none';
-
-    return rs;
+    if (keyWord.length !== 0) document.querySelector('h3.rs-content').textContent = `${rs.length} Result for keyword "${keyWord}"`;
 }
 function toTitleCase(str) {
     return str.replace(/\b\w+\b/g, (word) => {
@@ -465,19 +414,20 @@ function smoothScrollTo(element, targetPosition, duration = 300) {
 
     requestAnimationFrame(scrollStep);
 }
-function smoothScrollToTop(scrollDuration = 300) {
-    const scrollStart = window.scrollY;
-    const totalSteps = Math.floor(scrollDuration / 16);
+function scrollToTop(scrollDuration = 300) {
+    const scrollStep = Math.PI / (scrollDuration / 15);
     let count = 0;
+    let scrollPosition = 0;
 
-    function step() {
-        if (count < totalSteps) {
-            const easing = easeInOutQuad(count, 0, 1, totalSteps);
-            window.scrollTo(0, scrollStart * (1 - easing)); // Giảm dần về 0
+    function step(timestamp) {
+        if (window.scrollY !== 0) {
+            const easing = easeInOutQuad(count, 0, 1, 60);
+            window.scrollTo(0, document.documentElement.scrollHeight * easing);
+            scrollPosition += scrollStep;
             count++;
-            requestAnimationFrame(step);
-        } else {
-            window.scrollTo(0, 0); // Đảm bảo về đúng vị trí
+            if (count < 60) {
+                requestAnimationFrame(step);
+            }
         }
     }
 

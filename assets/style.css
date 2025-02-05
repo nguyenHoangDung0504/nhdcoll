@@ -371,11 +371,50 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 30%;
 }
 
+#page-container {
+  display: inline-flex;
+  width: 20%;
+  margin: 0 40%;
+  padding: 5px;
+  background-color: #111;
+  gap: 10px;
+  align-items: center;
+}
+
+#page-container>.btn {
+  flex: .1;
+  color: white;
+  padding: 5px 10px;
+  background-color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+#page-container>#page-display {
+  flex: .8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  min-width: 100px;
+}
+
+#page-container>#page-display>input {
+  flex: .8;
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-align: right;
+}
+
 @media (min-width: 767px) and (max-width: 1200px) {
   #sort {
     margin-left: 5%;
   }
-  
+
   .gallery-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     padding: 0 5%;
@@ -400,9 +439,20 @@ input[type="number"]::-webkit-inner-spin-button {
   #sort {
     margin-left: 5%;
   }
+
   .gallery-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     padding: 0 5%;
+  }
+
+  #page-container {
+    display: inline-flex;
+    width: 50%;
+    margin: 0 25%;
+    padding: 5px;
+    background-color: #111;
+    gap: 10px;
+    align-items: center;
   }
 
   .gallery {
@@ -424,6 +474,17 @@ input[type="number"]::-webkit-inner-spin-button {
     margin-left: 0%;
     width: 50%;
   }
+
+  #page-container {
+    display: inline-flex;
+    width: 70%;
+    margin: 0 15%;
+    padding: 5px;
+    background-color: #111;
+    gap: 10px;
+    align-items: center;
+  }
+
   .header {
     height: fit-content;
     margin-bottom: 40px;

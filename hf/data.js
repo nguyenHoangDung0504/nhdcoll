@@ -417,5 +417,44 @@ g.s(135008,'doujinshi','airandou','','Imouto-tachi o Haramasenai to Derarenai Mu
 g.s(127632,'doujinshi','tsukumaru,group-amuai okashi seisakusho | amulai sweet factory','','A Part-Time Job That Turned me into a Gender-Bent Daddy\'s Dirty Little Girl!','original',
 	'big areolae,big breasts,dilf,full color,gender change,gender morph,mosaic censorship,prostitution,schoolgirl uniform,sole female,unusual pupils',
 	'i.hentaifox.com/004/2953385/cover.jpg','i.hentaifox.com/004/2953385/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.jpg,<0>35.jpg,<0>36.jpg,<0>37.jpg,<0>38.jpg')
+g.s(109352,'doujinshi','kirin kakeru,group-kirintei','','Ichizu na Onee-san to Saikaishitara Dosukebe Kyuukonsarete Sex Tsukeninaru Hanashi | After Reuniting with the Onee-san Who is Fixated on Me, I was Proposed to with Sex and Got Addicted','original',
+	'big breasts,blowjob,bondage,bride,chloroform,drugs,femdom,gloves,milf,nakadashi,shotacon,sole female,sole male,stockings,x-ray,yandere',
+	'i.hentaifox.com/004/2513430/cover.jpg','i.hentaifox.com/004/2513430/}<0>1.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg')
+g.s(138320,'doujinshi','tirotata','','Prisoner of the Smell','original',
+	'big breasts,gender change,huge breasts,possession,rough translation,schoolgirl uniform,skinsuit,sweating',
+	'i2.hentaifox.com/004/3211448/cover.jpg','i.hentaifox.com/004/3211448/}<0>1.jpg,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.jpg,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp')
+g.s(16588,'doujinshi','dokurosan,group-group,group-yami ni ugomeku','ayase aragaki,hinata gokou,kyousuke kousaka,ruri gokou,tamaki gokou','Kuroneko yo Ore ni Nioi wo Kagasetekurenaika? | Hey Kuroneko, Won\'t You Let Me Smell You? + Paper','ore no imouto ga konna ni kawaii wake ga nai | my little sister cant be this cute',
+	'anal,beauty mark,catgirl,facesitting,group,impregnation,incest,lolicon,multi-work series,phimosis,scat,small breasts,smegma,smell,sole male,x-ray',
+	'i2.hentaifox.com/001/526900/cover.jpg','i.hentaifox.com/001/526900/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg')
+g.s(12209,'doujinshi','dokurosan,group-yami ni ugomeku','kyousuke kousaka,ruri gokou','Namanurui Kuroneko +Paper','ore no imouto ga konna ni kawaii wake ga nai | my little sister cant be this cute',
+	'armpit licking,armpit sex,beauty mark,catgirl,facesitting,farting,footjob,lolicon,multi-work series,rimjob,scat,smell,sole female,sole male,stockings,x-ray',
+	'i.hentaifox.com/001/400809/cover.jpg','i.hentaifox.com/001/400809/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg')
+g.s(75966,'doujinshi','nekometaru | necometal,group-gasshuukoku netamekoru | united states netamecol,group-group','','SPOHAME','original',
+	'anal,cervix penetration,cheerleader,coach,double penetration,emotionless sex,full color,group,harem,nakadashi,pasties,stockings,swimsuit,teacher,unusual pupils',
+	'i.hentaifox.com/003/1772065/cover.jpg','i.hentaifox.com/003/1772065/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg')
+g.s(126807,'manga','tokiwa midori','','Pla・Pura PR 01-03','',
+	'big breasts,blowjob,ffm threesome,glasses,group,hairy,harem,kissing,multiple paizuri,nakadashi,sole male,sweating',
+	'i.hentaifox.com/004/2931260/cover.jpg','i.hentaifox.com/004/2931260/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.jpg,<0>35.jpg,<0>36.jpg,<0>37.jpg,<0>38.jpg,<0>39.jpg,<0>40.jpg,<0>41.jpg,<0>42.jpg,<0>43.jpg,<0>44.jpg,<0>45.jpg,<0>46.jpg,<0>47.jpg,<0>48.jpg,<0>49.jpg,<0>50.jpg,<0>51.jpg,<0>52.jpg,<0>53.jpg,<0>54.jpg,<0>55.jpg,<0>56.jpg,<0>57.jpg,<0>58.jpg,<0>59.jpg,<0>60.jpg,<0>61.jpg,<0>62.jpg,<0>63.jpg,<0>64.jpg,<0>65.jpg,<0>66.jpg,<0>67.jpg,<0>68.jpg,<0>69.jpg,<0>70.jpg,<0>71.jpg,<0>72.jpg,<0>73.jpg,<0>74.jpg,<0>75.jpg,<0>76.jpg,<0>77.jpg,<0>78.jpg,<0>79.jpg,<0>80.jpg,<0>81.jpg,<0>82.jpg,<0>83.jpg,<0>84.jpg,<0>85.jpg,<0>86.jpg,<0>87.jpg,<0>88.jpg,<0>89.jpg,<0>90.jpg,<0>91.jpg,<0>92.jpg')
+g.s(100399,'doujinshi','tokiwa midori,group-wakusei nostalgia','bremerton,shikikan','Counseling Room Shichihenge!!','azur lane',
+	'big breasts,full censorship,lingerie,sole female,sole male,swimsuit,twintails',
+	'i2.hentaifox.com/004/2304472/cover.jpg','i.hentaifox.com/004/2304472/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg')
+g.s(110908,'manga','enokido','','Kyouei Senpai ni Nuite morau | Getting Jerked off by the Swimming Club Senpai','',
+	'ponytail,sole female,sole male,swimsuit',
+	'i2.hentaifox.com/004/2550555/cover.jpg','i.hentaifox.com/004/2550555/}<0>1.png,<0>2.png,<0>3.jpg,<0>4.png,<0>5.png,<0>6.png,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.png,<0>17.jpg,<0>18.png,<0>19.png,<0>20.png,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.png,<0>35.jpg')
+g.s(84263,'doujinshi','mignon,group-mignon works','','Wet Tummies','original',
+	'artbook,beauty mark,full color,incest,sister,swimsuit,teacher',
+	'i.hentaifox.com/003/1927081/cover.jpg','i.hentaifox.com/003/1927081/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg')
+g.s(109373,'doujinshi','mignon,group-mignon works','','Nure Onaka 3','',
+	'artbook,full color,swimsuit',
+	'i2.hentaifox.com/004/2514251/cover.jpg','i.hentaifox.com/004/2514251/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>24.jpg')
+g.s(115419,'doujinshi','oekakizuki','','Chin Kusa Otoko vs Kusai Fetish Sakurai-senpai no Atsuki Seishun Monogatari | Smelly-dick boy vs smell-fetish Sakurai-senpai','original',
+	'big breasts,big penis,blowjob,full color,masturbation,no penetration,schoolgirl uniform,smell,sole female,sole male',
+	'i.hentaifox.com/004/2665797/cover.jpg','i.hentaifox.com/004/2665797/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg')
+g.s(101264,'doujinshi','maguro teikoku | tuna empire,group-mesu gorilla.','','Soapland Friends','original',
+	'ahegao,big breasts,blowjob,condom,exposed clothing,lingerie,mosaic censorship,nakadashi,oil,pasties,rimjob,schoolboy uniform,sole female,sole male',
+	'i2.hentaifox.com/004/2319910/cover.jpg','i.hentaifox.com/004/2319910/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.jpg,<0>35.jpg')
+g.s(120506,'doujinshi','raidon,group-studio huan','','Okoranaide Hoshikawa-san 2 | Hey, Hold your Horses, Hoshikawa-san! 2','original',
+	'ahegao,big breasts,blowjob,fingering,mouth mask,rape,schoolgirl uniform,sole female,squirting',
+	'i.hentaifox.com/004/2786503/cover.jpg','i.hentaifox.com/004/2786503/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg,<0>31.jpg,<0>32.jpg,<0>33.jpg,<0>34.jpg,<0>35.jpg,<0>36.jpg,<0>37.jpg,<0>38.jpg,<0>39.jpg,<0>40.jpg,<0>41.jpg,<0>42.jpg,<0>43.jpg,<0>44.jpg,<0>45.jpg')
 
 export default g;
