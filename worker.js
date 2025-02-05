@@ -6,7 +6,8 @@ const urlsToCache = [
     "/hf/",
     "/imh/",
     "/src/",
-    "/assets/"
+    "/assets/",
+    "/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
 ];
 
 function shouldCache(url) {
