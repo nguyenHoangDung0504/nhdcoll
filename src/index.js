@@ -52,7 +52,7 @@ function buildApp(galleries) {
         container.dataset.code = gallery.code;
         container.classList.add('gallery', 'duma');
         container.innerHTML = `<div class="gallery-image">
-            <img loading="lazy" title="${gallery.code}" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
+            <img loading="lazy" title="${gallery.code}" referrer-policy="no-referrer" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
             <span class="category">${toTitleCase(gallery.category)}</span>
           </div>
           <div title="${toTitleCase(gallery.names.split('[/]')[0])}" class="gallery-name">${toTitleCase(gallery.names.split('[/]')[0])}</div>
@@ -228,7 +228,7 @@ function buildModel(gallery) {
 
     if (gallery.splitChap == false) {
         const imgs = gallery.images.split(',').reduce((html, src, index) => {
-            return html.concat(`<img class="img" ${index < 2 ? '' : 'loading="lazy"'} src="https://${src}" alt="${gallery.code}-${parseInt(index) + 1}">`);
+            return html.concat(`<img class="img" ${index < 2 ? '' : 'loading="lazy"'} referrer-policy="no-referrer" src="https://${src}" alt="${gallery.code}-${parseInt(index) + 1}">`);
         }, ``);
         model.innerHTML = `<div class="comic-container">${imgs}</div>`;
     } else {
@@ -237,7 +237,7 @@ function buildModel(gallery) {
         chapters.forEach((chapter, index) => {
             const imgs = chapter.split(',').reduce((html, src, index) => {
                 imgCount++;
-                return html.concat(`<img class="img" ${index < 2 ? '' : 'loading="lazy"'} src="https://${src}" alt="${gallery.code}-${imgCount}">`);
+                return html.concat(`<img class="img" ${index < 2 ? '' : 'loading="lazy"'} referrer-policy="no-referrer" src="https://${src}" alt="${gallery.code}-${imgCount}">`);
             }, ``);
             model.innerHTML += `<div data-chap="${parseInt(index) + 1}" ${index ? 'style="display: none"' : ''} class="comic-container g${gallery.code}">${imgs}</div>`;
         })
@@ -352,7 +352,7 @@ function buildGalleryInfo(gallery) {
     btnCtn.appendChild(helpBtn);
     btnCtn.appendChild(readBtn);
 
-    leftDiv.innerHTML = `<img class="cover-img" src="${"https://" + gallery.coverImage}" alt="${gallery.code} - Cover image"><h3>${name}</h3>`
+    leftDiv.innerHTML = `<img class="cover-img" referrer-policy="no-referrer" src="${"https://" + gallery.coverImage}" alt="${gallery.code} - Cover image"><h3>${name}</h3>`
     for (let key in gallery) {
         if (gallery[key] && !['code', 'splitChap', 'keyWord', 'coverImage', 'images', 'names'].includes(key)) {
             rightDiv.appendChild(getInfo(gallery, key));

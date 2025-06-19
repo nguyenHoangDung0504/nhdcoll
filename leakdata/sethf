@@ -1,4 +1,4 @@
-const crawlScriptURL = 'https://nhdcoll.glitch.me/leakdata/src/lhf.js';
+const crawlScriptURL = 'http://127.0.0.1:5500/leakdata/src/lhf-new.js';
 const script = await (await fetch(crawlScriptURL)).text();
 
 localStorage.setItem('crawl-script', script);
