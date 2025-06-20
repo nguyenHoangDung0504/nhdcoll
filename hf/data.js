@@ -708,5 +708,59 @@ g.s(144334,'manga','aka seiryuu','','Mazu wa SeFri kara, Dou? - Let\'s start off
 g.s(143999,'doujinshi','banana','sakurako utazumi,sensei','Ichijiku no Ha wa Ochite | A Fig Fallen To Immorality','blue archive',
 	'big areolae,big breasts,big penis,blowjob,deepthroat,nakadashi,nun,sole female,sole male,stockings,uncensored,x-ray',
 	'i3.hentaifox.com/004/3366483/cover.jpg','i3.hentaifox.com/004/3366483/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp')
+g.s(141367,'doujinshi','','','Alethea - AI Generated','',
+	'ai generated,big breasts,big penis,detached sleeves,lingerie,sex toys,stockings,uncensored',
+	'i3.hentaifox.com/004/3292029/cover.jpg','i3.hentaifox.com/004/3292029/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp,<0>27.webp,<0>28.webp,<0>29.webp,<0>30.webp,<0>31.webp,<0>32.webp,<0>33.webp,<0>34.webp,<0>35.webp,<0>36.webp,<0>37.webp,<0>38.webp,<0>39.webp')
+g.s(145130,'doujinshi','ment,group-listless time','aiko takamori,producer','Aiko to Himitsu no Satsueikai | Secret Recording Session With Aiko','the idolmaster',
+	'anal,gloves,kemonomimi | animal ears,lingerie,ponytail,sole female,sole male,stockings',
+	'i3.hentaifox.com/004/3400066/cover.jpg','i3.hentaifox.com/004/3400066/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp')
+g.s(119990,'doujinshi','ment,group-listless time','aiko takamori','Sukumizu Aiko ni Seikyo Iku Suru Hon','the idolmaster',
+	'swimsuit',
+	'i.hentaifox.com/004/2773100/cover.jpg','i.hentaifox.com/004/2773100/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg,<0>28.jpg,<0>29.jpg,<0>30.jpg')
+g.s(145333,'manga','','nanami aoyama','Nanami-chan can’t resist after a date! Cafe, Cinema, Love hotel~','sakurasou no pet na kanojo',
+	'ahegao,blowjob,cowgirl,cunnilingus,kissing,ponytail,squirting,uncensored,x-ray',
+	'i3.hentaifox.com/004/3405925/cover.jpg','i3.hentaifox.com/004/3405925/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp')
+g.s(145119,'doujinshi','luxsumildo','','Yeochin Gaehante NTR Danghaneun Manhwa | I was cucked by my girlfriend\'s dog!','original',
+	'ahegao,beauty mark,bestiality,big breasts,dog,nakadashi,netorare,sole female,uncensored',
+	'i3.hentaifox.com/004/3399895/cover.jpg','i3.hentaifox.com/004/3399895/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp')
+g.s(143999,'doujinshi','banana','sakurako utazumi,sensei','Ichijiku no Ha wa Ochite | A Fig Fallen To Immorality','blue archive',
+	'big areolae,big breasts,big penis,blowjob,deepthroat,nakadashi,nun,sole female,sole male,stockings,uncensored,x-ray',
+	'i3.hentaifox.com/004/3366483/cover.jpg','i3.hentaifox.com/004/3366483/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp')
+g.s(144817,'doujinshi','takano tomohiro,group-jyuu sensya usagitai','','Nonoka-chan no Papakatsu Diary','original',
+	'big breasts,multi-work series,ponytail,prostitution,schoolgirl uniform,sole female,sole male',
+	'i3.hentaifox.com/004/3390209/cover.jpg','i3.hentaifox.com/004/3390209/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp,<0>27.webp,<0>28.webp,<0>29.webp,<0>30.webp,<0>31.webp,<0>32.webp,<0>33.webp,<0>34.webp,<0>35.webp,<0>36.webp,<0>37.webp,<0>38.webp,<0>39.webp,<0>40.webp,<0>41.webp,<0>42.webp,<0>43.webp,<0>44.webp,<0>45.webp,<0>46.webp,<0>47.webp,<0>48.webp,<0>49.webp,<0>50.webp,<0>51.webp,<0>52.webp,<0>53.webp,<0>54.webp,<0>55.webp,<0>56.webp,<0>57.webp,<0>58.webp,<0>59.webp,<0>60.webp,<0>61.webp,<0>62.webp')
+g.s(130586,'doujinshi','takano tomohiro,group-jyuu sensya usagitai','','] Enkou-chan no Papakatsu Nikki 1','original',
+	'ponytail,prostitution,rough translation,schoolgirl uniform,sole female,uncensored',
+	'i.hentaifox.com/004/3023303/cover.jpg','i.hentaifox.com/004/3023303/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg')
+g.s(144526,'doujinshi','mori guruta,group-refrevo comic','','Erotic After School Massage ~Cheerleader Reaches the Peak of Pleasure~','original',
+	'big breasts,cheerleader,mosaic censorship,sole female,sole male,tickling',
+	'i3.hentaifox.com/004/3380906/cover.jpg','i3.hentaifox.com/004/3380906/}<0>1.webp,<0>2.webp,<0>3.webp,<0>4.webp,<0>5.webp,<0>6.webp,<0>7.webp,<0>8.webp,<0>9.webp,<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp,<0>27.webp,<0>28.webp,<0>29.webp,<0>30.webp,<0>31.webp,<0>32.webp,<0>33.webp,<0>34.webp,<0>35.webp,<0>36.webp,<0>37.webp,<0>38.webp,<0>39.webp,<0>40.webp,<0>41.webp,<0>42.webp,<0>43.webp,<0>44.webp,<0>45.webp,<0>46.webp,<0>47.webp,<0>48.webp,<0>49.webp,<0>50.webp,<0>51.webp,<0>52.webp,<0>53.webp,<0>54.webp,<0>55.webp')
+g.s(144616,'doujinshi','mil,group-xration','mamako oosuki','Haha no Hi Sono 2','tsujou kougeki ga zentai kougeki de 2-kai kougeki no okaasan wa suki desu ka | do you love your mom and her two-hit multi-target attacks',
+	'big breasts,collar,cowgirl,full color,kemonomimi | animal ears,lactation,milf,mind control,mosaic censorship,multi-work series,orc,pregnant,shotacon,sole female,sole male,stockings',
+	'i3.hentaifox.com/004/3383636/cover.jpg','i3.hentaifox.com/004/3383636/}<0>1.webp,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg')
+g.s(38358,'doujinshi','miyamoto issa,group-nosebleed','aki shiina,ayaka sunohara','Kimi wa Kanojo no Kanrika ni Iru.','sunohara-sou no kanrinin-san',
+	'bbw,big breasts,bikini,doujinshi,femdom,inverted nipples,nakadashi,paizuri,shotacon,sole female,sole male,sumata,virginity,x-ray',
+	'i2.hentaifox.com/002/971857/cover.jpg','i2.hentaifox.com/002/971857/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg')
+g.s(115088,'manga','miyamoto issa','','Iinari no Susume | Advice for the Whipped','',
+	'already uploaded,big breasts,blowjob,cheerleader,dark skin,femdom,glasses,mosaic censorship,schoolboy uniform,shotacon,sole female,sole male',
+	'i.hentaifox.com/004/2657392/cover.jpg','i2.hentaifox.com/004/2657392/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg')
+g.s(55810,'doujinshi','miyamoto issa,group-nosebleed','','LiLiM\'s kiss','original',
+	'anal,armpit licking,big ass,big breasts,cosplaying,dark skin,femdom,gyaru,multi-work series,nakadashi,shotacon,small penis,sole female,sole male,stockings,sweating,x-ray',
+	'i.hentaifox.com/002/1333689/cover.jpg','i2.hentaifox.com/002/1333689/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg')
+g.s(43017,'doujinshi','miyamoto issa,group-nosebleed','','LiLiM\'s+','original',
+	'anal,big ass,big breasts,bodystocking,dark skin,femdom,gyaru,leg lock,lingerie,multi-work series,nakadashi,shotacon,sole female,sole male,tall girl,twintails,unusual pupils,x-ray',
+	'i.hentaifox.com/002/1050464/cover.jpg','i.hentaifox.com/002/1050464/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg')
+g.s(41452,'doujinshi','miyamoto issa,group-nosebleed','','Itoshi no Onii-sama Lilim\'s Gaiden','original',
+	'anal,big breasts,collar,dark skin,defloration,doujinshi,femdom,glasses,impregnation,nakadashi,paizuri,sole female,sole male,stockings,tutor,uncensored,unusual pupils,virginity,x-ray',
+	'i.hentaifox.com/002/1022077/cover.jpg','i2.hentaifox.com/002/1022077/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg')
+g.s(36463,'doujinshi','miyamoto issa,group-nosebleed','','LiLiM\'s','original',
+	'big breasts,blowjob,clothed paizuri,dark skin,defloration,gyaru,lingerie,multi-work series,nakadashi,paizuri,schoolboy uniform,schoolgirl uniform,small penis,sole female,sole male,x-ray',
+	'i2.hentaifox.com/002/938681/cover.jpg','i.hentaifox.com/002/938681/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg,<0>22.jpg,<0>23.jpg,<0>24.jpg,<0>25.jpg,<0>26.jpg,<0>27.jpg')
+g.s(34630,'doujinshi','miyamoto issa,group-nosebleed','kashima,teitoku','Yasashii Kashimasan','kantai collection',
+	'big ass,blowjob,facesitting,femdom,first person perspective,military,shimapan | striped panties,sole female,sole male,twintails',
+	'i.hentaifox.com/002/906117/cover.jpg','i.hentaifox.com/002/906117/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg,<0>19.jpg,<0>20.jpg,<0>21.jpg')
+g.s(36952,'doujinshi','miyamoto issa,group-nosebleed','minami nitta','Seicross.','the idolmaster',
+	'anal,big breasts,blowjob,gokkun,nakadashi,prostitution,schoolgirl uniform,sole female,sole male,stockings,sweating,x-ray',
+	'i.hentaifox.com/002/946323/cover.jpg','i.hentaifox.com/002/946323/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg')
 
 export default g;
