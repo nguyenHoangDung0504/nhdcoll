@@ -187,6 +187,7 @@ body.openModel {
   overflow: hidden;
   text-overflow: ellipsis;
   color: white;
+  text-transform: capitalize;
 }
 
 /*================================================================================================*/
@@ -270,6 +271,7 @@ body.openModel {
   border-radius: 5px;
   cursor: pointer;
   user-select: none;
+  text-transform: capitalize;
 }
 
 .info .right .btn-ctn {

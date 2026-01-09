@@ -55,7 +55,8 @@ function buildApp(galleries) {
             <img loading="lazy" title="${gallery.code}" referrer-policy="no-referrer" src="https://${gallery.coverImage}" alt="${gallery.code} - Cover Image">
             <span class="category">${toTitleCase(gallery.category)}</span>
           </div>
-          <div title="${toTitleCase(gallery.names.split('[/]')[0])}" class="gallery-name">${toTitleCase(gallery.names.split('[/]')[0])}</div>
+          <!-- <div title="${toTitleCase(gallery.names.split('[/]')[0])}" class="gallery-name">${toTitleCase(gallery.names.split('[/]')[0])}</div> -->
+          <div title="${gallery.names.split('[/]')[0]}" class="gallery-name">${gallery.names.split('[/]')[0]}</div>
         </div>`.trim();
 
         container.addEventListener('click', () => {
@@ -378,7 +379,8 @@ function getInfo(gallery, key) {
     dataSplited.forEach(subData => {
         const subLabel = document.createElement('div');
         subLabel.classList.add('sub-label');
-        subLabel.textContent = toTitleCase(subData);
+        // subLabel.textContent = toTitleCase(subData);
+        subLabel.textContent = subData;
         subLabel.dataset.value = `${key}:${subData}`;
         subCtn.appendChild(subLabel);
     });

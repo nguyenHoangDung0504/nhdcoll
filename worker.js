@@ -1,11 +1,12 @@
 const CACHE_NAME = 'nhdcoll-cache-v1';
 const CACHE_VERSION = 5;
-const CACHE_EXPIRATION = time({ minutes: 10 });
+const CACHE_EXPIRATION = time({ hours: 24, minutes: 10 });
 const LOG = true;
 
 const cacheTargets = buildCacheTargets`
 	-- External CSS
 	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css
+	https://img.henzz.xyz/*
 
 	-- Path
 	/assets/*
@@ -51,25 +52,38 @@ function time({ hours = 0, minutes = 0, seconds = 0 } = {}) {
  * @param {string} url
  * @returns {boolean}
  */
+/**
+ * @param {string} url
+ * @returns {boolean}
+ */
 function shouldCache(url) {
 	const { origin, pathname } = new URL(url);
 
-	if (origin.startsWith('chrome-extension:')) return;
+	if (origin.startsWith('chrome-extension:')) return false;
 
 	return cacheTargets.some((target) => {
-		// Nếu target là một URL cụ thể, kiểm tra khớp tuyệt đối
-		if (target.startsWith('http')) return url === target;
+		// Nếu target là một URL external cụ thể (có http/https)
+		if (target.startsWith('http')) {
+			// Xử lý pattern với /*
+			if (target.endsWith('/*')) {
+				const baseUrl = target.slice(0, -2); // Bỏ /* đi
+				return url.startsWith(baseUrl);
+			}
 
-		// Nếu target là một đường dẫn kết thúc bằng /*, cache toàn bộ con/cháu
+			// Khớp tuyệt đối
+			return url === target;
+		}
+
+		// Nếu target là đường dẫn internal kết thúc bằng /*
 		if (target.endsWith('/*')) {
-			const basePath = target.slice(0, -2); // Bỏ /* đi
+			const basePath = target.slice(0, -2);
 			return pathname.startsWith(basePath);
 		}
 
-		// Nếu target là một đường dẫn, chỉ cache các file con trực tiếp
+		// Nếu target là đường dẫn internal, cache file con trực tiếp
 		if (pathname.startsWith(target)) {
 			const relativePath = pathname.slice(target.length);
-			return !relativePath.includes('/') || relativePath.endsWith('/'); // Chỉ cache file con trực tiếp
+			return !relativePath.includes('/') || relativePath === '/';
 		}
 
 		return false;
