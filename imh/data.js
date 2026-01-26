@@ -342,5 +342,17 @@ g.s(886584,'artist cg','kageusu gokuto','mona megistus','モナ援交ひょっ�
 g.s(1471487,'artist cg','kageusu gokuto','ai enma','[Kageusu Gokuto] ai saimin hyottoko fyera (Jigoku Shōjo)[/][ごくとくん] 閻魔あい催眠ひょっとこフェラ (地獄少女)','jigoku shoujo  |  hell girl',
 	'blowjob,sole male,mosaic censorship,sole female,dark skin,first person perspective,blowjob face,variant set,no penetration,focus blowjob',
 	'm10.imhentai.xxx/029/yt03ivaf8z/cover.jpg','m10.imhentai.xxx/029/yt03ivaf8z/}<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp,<0>27.webp,<0>28.webp')
+g.s(1066573,'artist cg','kageusu gokuto','ai enma','[Gokuto-kun] Enma Ai Saimin Hyottoko Fella (Hell Girl) [English][/]','jigoku shoujo  |  hell girl',
+	'blowjob,sole male,mosaic censorship,stockings,sole female,school swimsuit,mind control,first person perspective,blowjob face,variant set,no penetration,focus blowjob',
+	'm7.imhentai.xxx/023/nmaif74wjo/cover.jpg','m7.imhentai.xxx/023/nmaif74wjo/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg')
+g.s(1149595,'artist cg','kageusu gokuto','hayase nagatoro','[Kageusu Gokuto] Nagatoro-san Netorase Hyottoko Fella (Ijiranaide, Nagatoro-san) [English][/][ごくとくん] 長瀞さん寝取らせひょっとこフェラ (イジらないで、長瀞さん) [英訳]','ijiranaide nagatoro-san',
+	'blowjob,sole male,mosaic censorship,sole female,dark skin,tanlines,netorare,first person perspective,variant set,focus blowjob,netorase',
+	'm8.imhentai.xxx/024/gfy6q4a78s/cover.jpg','m8.imhentai.xxx/024/gfy6q4a78s/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg')
+g.s(956217,'artist cg','kageusu gokuto','mona megistus','[Kageusu Gokuto] Mona (Hidan no Aria) [English] [SDTLs][/]','genshin impact',
+	'twintails,blowjob,sole male,mosaic censorship,sole female,mind control,witch,first person perspective,blowjob face,variant set,gloves,focus blowjob',
+	'm6.imhentai.xxx/022/5arm2iefgc/cover.jpg','m6.imhentai.xxx/022/5arm2iefgc/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg')
+g.s(510094,'artist cg','kageusu gokuto','yang xiao long','[Gokuto-kun] Yang Xiao Long Saimin Hyottoko Fella + Tanetsuke Press (RWBY) [English][/][ごくとくん] ヤン・シャオロン催眠ひょっとこフェラ+種付けプレス (RWBY) [英語]','rwby',
+	'blowjob,mosaic censorship,sole female,dark skin,mind control,ponytail,unusual pupils,blowjob face,variant set',
+	'm3.imhentai.xxx/012/6icluqftsj/cover.jpg','m3.imhentai.xxx/012/6icluqftsj/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg')
 
 export default g;
