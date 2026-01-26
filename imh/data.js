@@ -330,5 +330,17 @@ g.s(1320849,'artist cg','gwegwe','alice','[gweda] Alice (GODDESS OF VICTORY: Nik
 g.s(1212354,'artist cg','gwegwe','saori joumae','[gweda] Joumae Saori (Blue Archive) [Uncensored][/][gweda] 錠前サオリ (ブルーアーカイブ)','blue archive',
 	'big breasts,collar,first person perspective,impregnation,nakadashi,sole female,sole male,variant set,very long hair,x-ray',
 	'm8.imhentai.xxx/025/9um5lyahgs/cover.jpg','m8.imhentai.xxx/025/9um5lyahgs/}<0>1.jpg,<0>2.jpg,<0>3.jpg,<0>4.jpg,<0>5.jpg,<0>6.jpg,<0>7.jpg,<0>8.jpg,<0>9.jpg,<0>10.jpg')
+g.s(1471545,'artist cg','kageusu gokuto','misaki shokuhou','[ごくとくん ] 食蜂操祈simnひょっとこフェラ[/]','toaru project',
+	'blowjob,sole male,stockings,hairy,sole female,first person perspective,unusual pupils,blowjob face,variant set,gloves,no penetration,focus blowjob',
+	'm10.imhentai.xxx/029/s9hkw7mrc2/cover.jpg','m10.imhentai.xxx/029/s9hkw7mrc2/}<0>10.webp,<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp')
+g.s(1471413,'artist cg','kageusu gokuto','ai yashajin','[Kageusu Gokuto] Teni Netori Hyottoko Fella (Ryuuou no Oshigoto!)[/][ごくとくん] 天衣寝取りひょっとこフェラ (りゅうおうのおしごと!)','ryuuou no oshigoto',
+	'blowjob,sole male,mosaic censorship,hairy,sole female,dark skin,tanlines,big penis,variant set,gloves,no penetration,focus blowjob',
+	'm10.imhentai.xxx/029/ai4g59dvwo/cover.jpg','m10.imhentai.xxx/029/ai4g59dvwo/}<0>11.webp,<0>12.webp,<0>13.webp,<0>14.webp,<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp')
+g.s(886584,'artist cg','kageusu gokuto','mona megistus','モナ援交ひょっとこフェラ[/]モナ援交ひょっとこフェラ','genshin impact',
+	'blowjob,sole male,stockings,sole female,mind control,prostitution,unusual pupils,blowjob face,variant set,no penetration',
+	'm6.imhentai.xxx/020/gv2b8wxuaf/cover.jpg','m6.imhentai.xxx/020/gv2b8wxuaf/}<0>10.jpg,<0>11.jpg,<0>12.jpg,<0>13.jpg,<0>14.jpg,<0>15.jpg,<0>16.jpg,<0>17.jpg,<0>18.jpg')
+g.s(1471487,'artist cg','kageusu gokuto','ai enma','[Kageusu Gokuto] ai saimin hyottoko fyera (Jigoku Shōjo)[/][ごくとくん] 閻魔あい催眠ひょっとこフェラ (地獄少女)','jigoku shoujo  |  hell girl',
+	'blowjob,sole male,mosaic censorship,sole female,dark skin,first person perspective,blowjob face,variant set,no penetration,focus blowjob',
+	'm10.imhentai.xxx/029/yt03ivaf8z/cover.jpg','m10.imhentai.xxx/029/yt03ivaf8z/}<0>15.webp,<0>16.webp,<0>17.webp,<0>18.webp,<0>19.webp,<0>20.webp,<0>21.webp,<0>22.webp,<0>23.webp,<0>24.webp,<0>25.webp,<0>26.webp,<0>27.webp,<0>28.webp')
 
 export default g;
