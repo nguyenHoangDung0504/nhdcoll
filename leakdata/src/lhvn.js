@@ -56,15 +56,15 @@ Promise.all([worker(), worker()])
 		navigator.clipboard
 			?.writeText(
 				`g.s(${Math.floor(Date.now() / 10)},'manga',\`${authors}\`,'',\`${mainName}${
-					anotherName ? '[/]' + anotherName : ''
+					anotherName && anotherName !== mainName ? '[/]' + anotherName : ''
 				}\`,'',\n\t'${tags}',\n\t'${thumbnail.replace('https://', '')}','${fullImageURLs.replaceAll(
 					'https://',
-					''
-				)}')\n`
+					'',
+				)}')\n`,
 			)
 			.then(
 				() => console.log('Copied'),
-				(err) => console.error('Copy failed', err)
+				(err) => console.error('Copy failed', err),
 			);
 	})
 	.catch(console.error);

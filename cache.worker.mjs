@@ -1,12 +1,12 @@
 const CACHE_NAME = 'nhdcoll-cache-v1';
 const CACHE_VERSION = 5;
-const CACHE_EXPIRATION = time({ hours: 24, minutes: 10 });
+const CACHE_EXPIRATION = time({ minutes: 10 });
 const LOG = true;
 
 const cacheTargets = buildCacheTargets`
 	-- External CSS
 	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css
-	https://img.henzz.xyz/*
+	-- https://img.henzz.xyz/*
 
 	-- Path
 	/assets/*
@@ -140,10 +140,10 @@ self.addEventListener('install', (event) => {
 							LOG && console.log(`--> [CacheManager.worker]: Deleting old cache ${key}`);
 							return caches.delete(key);
 						}
-					})
-				)
+					}),
+				),
 			)
-			.then(() => self.skipWaiting())
+			.then(() => self.skipWaiting()),
 	);
 });
 
@@ -162,7 +162,7 @@ self.addEventListener('message', (event) => {
 
 // Khi fetch, kiểm tra và lấy từ cache, nếu cache hết hạn, cập nhật dưới nền
 self.addEventListener('fetch', (event) => {
-	const requestUrl = new URL(event.request.url);
+	const requestUrl = new URL(event.request.url).toString();
 
 	if (CACHE_EXPIRATION < 1) return;
 	if (!shouldCache(requestUrl)) return;
@@ -192,13 +192,14 @@ self.addEventListener('fetch', (event) => {
 				await saveCacheMetadata(cache, event.request);
 				return networkResponse;
 			} catch (error) {
-				LOG && console.error(`--> [CacheManager.worker]: Fetch failed and no cache available: ${event.request.url}`);
+				LOG &&
+					console.error(`--> [CacheManager.worker]: Fetch failed and no cache available: ${event.request.url}`, error);
 				return new Response('--> [CacheManager.worker]: Network error and no cache available', {
 					status: 503,
 					statusText: 'Service Unavailable',
 				});
 			}
-		})()
+		})(),
 	);
 });
 
